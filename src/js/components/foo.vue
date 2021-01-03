@@ -1,5 +1,5 @@
 <template>
-  <p>Foo1</p>
+  <p>component-1</p>
 </template>
 <script>
 </script>

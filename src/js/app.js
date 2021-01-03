@@ -7,6 +7,7 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 Vue.component('header-component', require('./components/header.vue').default)
+Vue.component('footer-component', require('./components/footer.vue').default)
 
 import Foo from './components/foo.vue'
 import Bar from './components/bar.vue'

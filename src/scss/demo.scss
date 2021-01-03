@@ -5,15 +5,48 @@ body {
 }
 
 header {
-  font-size: 2em;
-  margin: 20px;
-  color: $caption-color;
-  text-align: center;
-  background: $foreground-color url('../images/design/heading.png') center 20px no-repeat;
-  padding: 60px 30px 30px;
-  background-size: 160px;
+  width: 100%;
+  padding: 15px;
+  background: #ffffff;
+  color: #000000;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 10px;
+    }
+  }
+}
+
+.banner {
+  background: #dddddd;
+  padding: 20px 0;
+  img {
+    margin: 0 auto 20px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #ffffff;
+  }
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+
+footer {
+  width: 100%;
+  padding: 15px;
+  background: #ffffff;
+  color: #000000;
 }
 
 a {
   color: $link-color;
 }
+
+// url('../images/design/webpack.png')

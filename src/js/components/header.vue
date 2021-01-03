@@ -1,6 +1,9 @@
 <template>
   <header class="header">
-    <p>Header</p>
+    <a href="/" class="logo">
+      <img src="images/content/logo.svg" alt="logo" class="logo" />
+      <p>Header</p>
+    </a>
   </header>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <p>Bar1</p>
+  <p>component-2</p>
 </template>
 
 <script>

@@ -6,26 +6,29 @@
   <title>Webpack Template</title>
 </head>
 
-
-
-
 <body>
-  <h1>
-    <a href="https://github.com/undefzahar" target="_blank">Webpack 5 Template Boilerplate</a>
-  </h1>
-  <img src="images/content/logo.svg" alt="Logo of Athlon" class="logo">
-
-  <p>Demo page illustrating building <strong>SASS</strong>, PostCSS, JavaScript, Fonts, Background Images and Inline
-    Images.</p>
   <div id="app">
     <header-component></header-component>
-    <router-link to="/foo">Перейти к Foo</router-link>
-    <router-link to="/bar">Перейти к Bar</router-link>
+
+    <div class="banner">
+      <a href="https://github.com/undefzahar/webpack-boilerplate" target="_blank"><img src="images/content/webpack.png"
+          alt="Logo of Athlon" class="logo"></a>
+
+      <h1>
+        <a href="https://github.com/undefzahar/webpack-boilerplate" target="_blank">Webpack Template</a>
+      </h1>
+    </div>
+
+    <div class="menu">
+      <div class="title">Menu</div>
+      <router-link to="/foo">component-1</router-link>
+      <router-link to="/bar">component-2</router-link>
+    </div>
 
     <router-view></router-view>
+
+    <footer-component></footer-component>
   </div>
-
-
 </body>
 
 </html>
