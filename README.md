@@ -45,7 +45,7 @@ Configuration
 * `package.json` - 
 
 <div align="center">
-  <h2>Settings:</h2>
+  <h2>Import libs:</h2>
 </div>
 
 ## Import Another libs:
@@ -81,7 +81,7 @@ or local file
 
 ## Import js files:
 1. Create another js module in `src/js/` folder
-2. Import modules in `src/js/scrupt.js` file
+2. Import modules in `src/js/script.js` file
 ``` js
 // another js file for example
 import 'common.js'
