@@ -25,16 +25,16 @@ Development
 * `src/templates/index.html` - main app HTML
 * `src/scss` - put custom app SCSS styles. Don't forget to import them in `index.js`
 * `src/img` - put images here. Don't forget to use correct path: `img/content/some.jpg`
-* `src/js` - put custom app scripts here
-* `src/fonts` - Fonts
+* `src/js` - put custom scripts here
+* `src/fonts` - put fonts here
 * `src/index.js` - main app file where you include/import all required libs and init app
 * `src/components` - folder with custom `.vue` components
 
 Production
 * `dist/index.html` - main app HTML
-* `dist/css` - put custom app SCSS styles here. Don't forget to import them in `index.js`
-* `dist/img` - put images here. Don't forget to use correct path: `assets/img/some.jpg`
-* `dist/js` - put custom app scripts here
+* `dist/css` - CSS styles
+* `dist/img` - images
+* `dist/js` - scripts
 * `dist/fonts` - fonts
 
 <div align="center">
