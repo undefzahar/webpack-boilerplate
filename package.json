@@ -1,13 +1,14 @@
 {
   "author": "Melnyk Zakharii",
   "name": "webpack-boilerplate",
-  "version": "0.1",
   "description": "Starter project template boilerplate based on Webpack with SASS/PostCSS and babel ES6/7 support.",
   "browserslist": [
     "last 2 versions",
     "> 5%"
   ],
   "dependencies": {
+    "aos": "^2.3.4",
+    "jquery": "^3.5.1",
     "vue": "^2.6.12",
     "vue-router": "^3.4.9"
   },

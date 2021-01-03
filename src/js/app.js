@@ -1,8 +1,14 @@
-import '../scss/app.scss';
+// STYLES
+import '../scss/app.scss'
 
-/* Your JS Code goes here */
+
+/* SCRIPTS */
+import './script.js'
+import AOS from 'aos'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+
+AOS.init();
 
 Vue.use(VueRouter)
 
@@ -24,6 +30,3 @@ const router = new VueRouter({
 const app = new Vue({
 	router
 }).$mount('#app')
-
-// /* JS */
-import './demo.js';

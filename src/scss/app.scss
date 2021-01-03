@@ -13,12 +13,9 @@
 /* Mixins, helpers and functions */
 @import 'base/mixins';
 
-/* Vendor */
-
 /* Components */
+/* AOS animation */
+@import 'aos/dist/aos.css';
 
-/* Browser specific styles */
-@import 'dirty/hacks';
-
-/* Demo Page styles */
-@import 'demo';
+/* Main page styles */
+@import 'style';
