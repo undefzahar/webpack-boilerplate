@@ -1,6 +1,7 @@
 <h1>Webpack 5 starter template</h1>
 
 Webpack-template
+<pre>
 └── configuration # 
     ├── environment.js # 
 	 ├── webpack.dev.config.js # 
@@ -39,3 +40,4 @@ Webpack-template
 ├── package.json # 
 ├── webpack-config.js # 
 └── node_modules # 
+</pre>
