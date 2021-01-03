@@ -1,9 +1,9 @@
 // STYLES
-import '../scss/app.scss'
+import './scss/app.scss'
 
 
 /* SCRIPTS */
-import './script.js'
+import './js/script.js'
 import AOS from 'aos'
 import Vue from 'vue'
 import VueRouter from 'vue-router'

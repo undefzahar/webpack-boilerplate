@@ -22,23 +22,20 @@ npm run build
 
 ## Project Structure:
 Development
-* `src/template/index.html` - main app HTML
-* `src/assets/scss` - put custom app SCSS styles here. Don't forget to import them in `index.js`
-* `src/assets/css` - the same as above but CSS here. Don't forget to import them in `index.js`
-* `src/assets/img` - put images here. Don't forget to use correct path: `assets/img/some.jpg`
+* `src/templates/index.html` - main app HTML
+* `src/scss` - custom app SCSS styles. Don't forget to import them in `index.js`
+* `src/img` - put images here. Don't forget to use correct path: `assets/img/some.jpg`
 * `src/js` - put custom app scripts here
+* `src/fonts` - Fonts
 * `src/index.js` - main app file where you include/import all required libs and init app
 * `src/components` - folder with custom `.vue` components
-* `src/store` - app store for vue
-* `static/` - folder with extra static assets that will be copied into output folder
 
 Production
-* `dist/template/index.html` - main app HTML
-* `dist/assets/scss` - put custom app SCSS styles here. Don't forget to import them in `index.js`
-* `dist/assets/css` - the same as above but CSS here. Don't forget to import them in `index.js`
-* `dist/assets/img` - put images here. Don't forget to use correct path: `assets/img/some.jpg`
+* `dist/index.html` - main app HTML
+* `dist/css` - put custom app SCSS styles here. Don't forget to import them in `index.js`
+* `dist/img` - put images here. Don't forget to use correct path: `assets/img/some.jpg`
 * `dist/js` - put custom app scripts here
-* `dist/index.js` - main app file where you include/import all required libs and init app
+* `dist/fonts` - fonts
 
 <div align="center">
   <h2>Settings:</h2>

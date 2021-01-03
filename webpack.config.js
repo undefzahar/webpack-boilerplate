@@ -15,12 +15,12 @@ const htmlPluginEntries = templateFiles.map((template) => new HTMLWebpackPlugin(
   hash: false,
   filename: template,
   template: path.resolve(environment.paths.source, 'templates', template),
-  favicon: path.resolve(environment.paths.source, 'images', 'favicon.svg'),
+  favicon: path.resolve(environment.paths.source, 'img', 'favicon.svg'),
 }));
 
 module.exports = {
   entry: {
-    app: path.resolve(environment.paths.source, 'js', 'app.js'),
+    app: path.resolve(environment.paths.source, 'index.js'),
   },
   output: {
     filename: 'js/[name].js',
@@ -52,7 +52,7 @@ module.exports = {
           {
             loader: 'url-loader',
             options: {
-              name: 'images/design/[name].[hash:6].[ext]',
+              name: 'img/design/[name].[hash:6].[ext]',
               publicPath: '../',
               limit: environment.limits.images,
             },
@@ -114,8 +114,8 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: path.resolve(environment.paths.source, 'images', 'content'),
-          to: path.resolve(environment.paths.output, 'images', 'content'),
+          from: path.resolve(environment.paths.source, 'img', 'content'),
+          to: path.resolve(environment.paths.output, 'img', 'content'),
           toType: 'dir',
           globOptions: {
             ignore: ['*.DS_Store', 'Thumbs.db'],
