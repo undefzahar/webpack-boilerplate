@@ -1,7 +1,7 @@
 {
   "author": "Melnyk Zakharii",
   "name": "webpack-boilerplate",
-  "version": "5.2.0",
+  "version": "0.1",
   "description": "Starter project template boilerplate based on Webpack with SASS/PostCSS and babel ES6/7 support.",
   "browserslist": [
     "last 2 versions",
