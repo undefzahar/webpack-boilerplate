@@ -2,7 +2,7 @@
   <header class="header">
     <a href="/" class="logo">
       <img src="images/content/logo.svg" alt="logo" class="logo" />
-      <p>Header</p>
+      <p>Header (Vue component)</p>
     </a>
   </header>
 </template>

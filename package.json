@@ -8,6 +8,7 @@
   ],
   "dependencies": {
     "aos": "^2.3.4",
+    "bootstrap": "^5.0.0-beta1",
     "jquery": "^3.5.1",
     "vue": "^2.6.12",
     "vue-router": "^3.4.9"

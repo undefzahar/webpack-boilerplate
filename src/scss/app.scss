@@ -4,9 +4,6 @@
 /* CSS Reset */
 @import 'base/reset';
 
-/* CSS print */
-@import 'base/print';
-
 /* Fonts */
 @import 'base/fonts';
 
@@ -14,8 +11,14 @@
 @import 'base/mixins';
 
 /* Components */
+
 /* AOS animation */
 @import 'aos/dist/aos.css';
 
+/* Bootstrap Grid */
+@import 'bootstrap/dist/css/bootstrap-grid.min';
+
 /* Main page styles */
 @import 'style';
+
+@import 'media';

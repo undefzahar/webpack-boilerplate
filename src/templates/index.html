@@ -14,29 +14,38 @@
 
   <!-- iOS Safari -->
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
 </head>
 
 <body>
   <div id="app">
+
     <header-component></header-component>
 
-    <div class="banner">
-      <a href="https://github.com/undefzahar/webpack-boilerplate" target="_blank"><img src="images/content/webpack.png"
-          alt="Logo of Athlon" class="logo"></a>
+    <div class="container">
+      <div class="banner">
+        <a href="https://github.com/undefzahar/webpack-boilerplate" target="_blank"><img
+            src="images/content/webpack.png" alt="Logo of Athlon" class="logo"></a>
 
-      <h1 data-aos="fade-up" data-aos-delay="50">
-        <a href="https://github.com/undefzahar/webpack-boilerplate" target="_blank">Webpack Template</a>
-      </h1>
+        <h1 data-aos="fade-up" data-aos-delay="50">
+          <a href="https://github.com/undefzahar/webpack-boilerplate" target="_blank">Webpack Template</a>
+        </h1>
+      </div>
+      <div class="menu">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="title">Menu (router-link)</div>
+            <router-link to="/foo">component-1</router-link>
+            <router-link to="/bar">component-2</router-link>
+          </div>
+          <div class="col-lg-6">
+            <div class="title">router-view</div>
+            <router-view></router-view>
+          </div>
+        </div>
+      </div>
+
     </div>
-
-    <div class="menu">
-      <div class="title">Menu</div>
-      <router-link to="/foo">component-1</router-link>
-      <router-link to="/bar">component-2</router-link>
-    </div>
-
-    <router-view></router-view>
 
     <footer-component></footer-component>
   </div>

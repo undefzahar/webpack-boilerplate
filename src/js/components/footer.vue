@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <p>Footer</p>
+    <p>Footer (Vue component)</p>
   </footer>
 </template>
 
