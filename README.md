@@ -50,7 +50,7 @@ Configuration
 
 ## Import Another libs:
 1. Install libs
-2. Import libs in `./index.js`
+2. Import libs in `src/index.js`
 ``` js
 // Vue example
 import Vue from 'vue'
@@ -61,7 +61,7 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 
 ## Import SASS or CSS libs:
 1. Install libs
-2. Go to `/scss/app.scss`
+2. Go to `src/scss/app.scss`
 3. Import libs in node modules
 ``` scss
 // Sass librarys example:
@@ -71,8 +71,8 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 ```
 or local file
 
-1. put the library in `/scss/base/libs.scss`
-2. Go to `/scss/app.scss`
+1. put the library in `src/scss/base/libs.scss`
+2. Go to `src/scss/app.scss`
 3. Import libs
 ``` scss
 // Local style file:
@@ -80,11 +80,11 @@ or local file
 ```
 
 ## Import js files:
-1. Create another js module in `./js/` folder
-2. Import modules in `./js/index.js` file
+1. Create another js module in `src/js/` folder
+2. Import modules in `src/js/scrupt.js` file
 ``` js
 // another js file for example
-import './common.js'
+import 'common.js'
 ```
 
 ## HTML Dir Folder:
