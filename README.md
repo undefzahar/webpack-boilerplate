@@ -23,8 +23,8 @@ npm run build
 ## Project Structure:
 Development
 * `src/templates/index.html` - main app HTML
-* `src/scss` - custom app SCSS styles. Don't forget to import them in `index.js`
-* `src/img` - put images here. Don't forget to use correct path: `assets/img/some.jpg`
+* `src/scss` - put custom app SCSS styles. Don't forget to import them in `index.js`
+* `src/img` - put images here. Don't forget to use correct path: `img/content/some.jpg`
 * `src/js` - put custom app scripts here
 * `src/fonts` - Fonts
 * `src/index.js` - main app file where you include/import all required libs and init app
